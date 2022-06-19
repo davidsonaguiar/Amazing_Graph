@@ -5,31 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazing Graph</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-    <header>
-        <div>
+    <header class="container-center content-center">
+        <div id="header-title">
             <h1>DevChallenge</h1>
         </div>
-        <div>
-            <button>
+        <div id="header-menu">
+            <label id="header-label" for="header-menu_input">
                 <ion-icon name="menu-outline"></ion-icon>
-            </button>
+            </label>
+            <input id="header-menu_input" type="checkbox">
         </div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Contact</a></li>
+        <nav id="header-nav">
+            <ul id="header-nav_list" class="content-center">
+                <li><a class="header-nav_list_link" href="#">Home</a></li>
+                <li><a class="header-nav_list_link" href="#">Features</a></li>
+                <li><a class="header-nav_list_link" href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <div>
+    <main class="container-center">
+        <div id="main-text">
             <h2>Create amazing graphics</h2>
             <p>Colaborate and create beautiful graphics with your team</p>
+            <div>
+                <button>Start Now</button>
+            </div>
         </div>
-        <div>
+        <div id="main-img">
             <img src="./assets/team.jpg" alt="Tres pessoas em reuniao apresentando graficos.">
         </div>
     </main>
