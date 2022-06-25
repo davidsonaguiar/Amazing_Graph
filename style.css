@@ -59,6 +59,10 @@ header {
     font-size: 20px;
 }
 
+.header-nav_list_link:hover {
+    color: var(--orange);
+}
+
 main {
     height: calc(100% - 50px);
     background: url(./assets/team.jpg);
